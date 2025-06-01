@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "email": "parent@example.com",
+      "name": "Sarah Johnson",
+      "role": "parent",
+      "subscription": "premium",
+      "children": ["child_001", "child_002"],
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "child_001",
+      "name": "Alex Johnson",
+      "age": 8,
+      "role": "child",
+      "parentId": "user_001",
+      "preferences": {
+        "language": "english",
+        "difficulty": "intermediate",
+        "favoriteSubjects": ["math", "science"]
+      },
+      "progress": {
+        "totalXP": 2450,
+        "level": 12,
+        "gamesCompleted": 45,
+        "storiesRead": 23,
+        "streakDays": 7,
+        "achievements": ["first_game", "math_master", "story_lover", "streak_week"]
+      }
+    },
+    {
+      "id": "child_002",
+      "name": "Maya Johnson",
+      "age": 6,
+      "role": "child",
+      "parentId": "user_001",
+      "preferences": {
+        "language": "arabic",
+        "difficulty": "beginner",
+        "favoriteSubjects": ["language", "stories"]
+      },
+      "progress": {
+        "totalXP": 1200,
+        "level": 6,
+        "gamesCompleted": 20,
+        "storiesRead": 15,
+        "streakDays": 3,
+        "achievements": ["first_game", "arabic_explorer", "story_starter"]
+      }
+    }
+  ]
+}
