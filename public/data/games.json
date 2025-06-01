@@ -1,0 +1,117 @@
+{
+  "games": [
+    {
+      "id": "math_001",
+      "title": "Space Counting Adventure",
+      "category": "math",
+      "difficulty": "beginner",
+      "description": "Count the stars and planets in our cosmic adventure!",
+      "image": "/images/planets.jpg",
+      "xpReward": 50,
+      "estimatedTime": "5-10 minutes",
+      "ageRange": "5-7",
+      "languages": ["english", "arabic"],
+      "content": {
+        "type": "counting",
+        "maxNumber": 10,
+        "theme": "space"
+      },
+      "subscription": "free"
+    },
+    {
+      "id": "math_002",
+      "title": "Rocket Addition Mission",
+      "category": "math",
+      "difficulty": "beginner",
+      "description": "Help rockets reach their destination by solving addition problems!",
+      "image": "/images/rocket-mascot.jpg",
+      "xpReward": 75,
+      "estimatedTime": "10-15 minutes",
+      "ageRange": "6-8",
+      "languages": ["english", "arabic", "urdu"],
+      "content": {
+        "type": "addition",
+        "maxSum": 20,
+        "theme": "rockets"
+      },
+      "subscription": "standard"
+    },
+    {
+      "id": "math_003",
+      "title": "Galaxy Subtraction Quest",
+      "category": "math",
+      "difficulty": "intermediate",
+      "description": "Navigate through galaxies by mastering subtraction!",
+      "image": "/images/hero-space-banner.jpg",
+      "xpReward": 100,
+      "estimatedTime": "15-20 minutes",
+      "ageRange": "7-10",
+      "languages": ["english", "arabic", "urdu"],
+      "content": {
+        "type": "subtraction",
+        "maxNumber": 50,
+        "theme": "galaxy"
+      },
+      "subscription": "premium"
+    },
+    {
+      "id": "lang_001",
+      "title": "Arabic Alphabet Stars",
+      "category": "language",
+      "difficulty": "beginner",
+      "description": "Learn Arabic letters by connecting stars in the sky!",
+      "image": "/images/language-learning.png",
+      "xpReward": 60,
+      "estimatedTime": "10-15 minutes",
+      "ageRange": "5-8",
+      "languages": ["arabic", "english"],
+      "content": {
+        "type": "alphabet",
+        "letters": ["ا", "ب", "ت", "ث", "ج", "ح", "خ", "د", "ذ", "ر"],
+        "theme": "stars"
+      },
+      "subscription": "standard"
+    },
+    {
+      "id": "lang_002",
+      "title": "English Phonics Rocket",
+      "category": "language",
+      "difficulty": "beginner",
+      "description": "Blast off with phonics and learn letter sounds!",
+      "image": "/images/rocket-mascot.jpg",
+      "xpReward": 50,
+      "estimatedTime": "8-12 minutes",
+      "ageRange": "4-7",
+      "languages": ["english"],
+      "content": {
+        "type": "phonics",
+        "letters": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+        "theme": "rocket"
+      },
+      "subscription": "free"
+    },
+    {
+      "id": "science_001",
+      "title": "Planet Explorer",
+      "category": "science",
+      "difficulty": "beginner",
+      "description": "Discover amazing facts about planets in our solar system!",
+      "image": "/images/planets.jpg",
+      "xpReward": 80,
+      "estimatedTime": "12-18 minutes",
+      "ageRange": "6-10",
+      "languages": ["english", "arabic", "urdu"],
+      "content": {
+        "type": "facts",
+        "topic": "planets",
+        "facts": [
+          "Mercury is the closest planet to the Sun",
+          "Venus is the hottest planet",
+          "Earth is the only planet with life",
+          "Mars is known as the Red Planet"
+        ]
+      },
+      "subscription": "standard"
+    }
+  ]
+}
