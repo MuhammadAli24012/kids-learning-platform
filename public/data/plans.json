@@ -1,0 +1,79 @@
+{
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free Explorer",
+      "price": 0,
+      "currency": "USD",
+      "billingCycle": "forever",
+      "description": "Perfect for getting started with basic learning",
+      "features": [
+        "Access to 3 basic games",
+        "2 stories per month",
+        "English content only",
+        "Basic progress tracking",
+        "Community support"
+      ],
+      "limitations": [
+        "Limited game selection",
+        "Monthly story limit",
+        "Single language",
+        "Basic analytics only"
+      ],
+      "color": "#6B7280",
+      "popular": false,
+      "stripePriceId": null
+    },
+    {
+      "id": "standard",
+      "name": "Space Cadet",
+      "price": 9.99,
+      "currency": "USD",
+      "billingCycle": "monthly",
+      "description": "Great for regular learners who want more content",
+      "features": [
+        "Access to 15+ games",
+        "10 stories per month",
+        "Arabic + English content",
+        "Advanced progress analytics",
+        "Achievement system",
+        "Email support",
+        "Downloadable worksheets"
+      ],
+      "limitations": [
+        "Monthly story limit",
+        "Two languages only"
+      ],
+      "color": "#3B82F6",
+      "popular": true,
+      "stripePriceId": "price_standard_monthly",
+      "yearlyPrice": 99.99,
+      "yearlyPriceId": "price_standard_yearly"
+    },
+    {
+      "id": "premium",
+      "name": "Galaxy Commander",
+      "price": 19.99,
+      "currency": "USD",
+      "billingCycle": "monthly",
+      "description": "Ultimate learning experience with full access",
+      "features": [
+        "Unlimited games and stories",
+        "All languages (Arabic + Urdu + English)",
+        "Offline content access",
+        "Advanced parental controls",
+        "Priority support",
+        "Custom learning paths",
+        "Progress reports",
+        "Downloadable materials",
+        "Early access to new content"
+      ],
+      "limitations": [],
+      "color": "#7C3AED",
+      "popular": false,
+      "stripePriceId": "price_premium_monthly",
+      "yearlyPrice": 199.99,
+      "yearlyPriceId": "price_premium_yearly"
+    }
+  ]
+}
