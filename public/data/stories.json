@@ -1,0 +1,99 @@
+{
+  "stories": [
+    {
+      "id": "story_001",
+      "title": "The Brave Little Astronaut",
+      "category": "adventure",
+      "difficulty": "beginner",
+      "description": "Join Luna the astronaut on her first space mission!",
+      "image": "/images/storybook.jpeg",
+      "estimatedTime": "5-8 minutes",
+      "ageRange": "5-8",
+      "languages": ["english", "arabic"],
+      "xpReward": 40,
+      "moral": "Courage and determination help us achieve our dreams",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "The Dream",
+          "content": {
+            "english": "Luna had always dreamed of becoming an astronaut. Every night, she would look up at the stars and imagine floating among them.",
+            "arabic": "لطالما حلمت لونا بأن تصبح رائدة فضاء. كل ليلة، كانت تنظر إلى النجوم وتتخيل نفسها تطفو بينها."
+          },
+          "image": "/images/hero-space-banner.jpg"
+        },
+        {
+          "id": 2,
+          "title": "The Training",
+          "content": {
+            "english": "Luna studied hard and trained every day. She learned about rockets, planets, and how to be brave in space.",
+            "arabic": "درست لونا بجد وتدربت كل يوم. تعلمت عن الصواريخ والكواكب وكيفية أن تكون شجاعة في الفضاء."
+          },
+          "image": "/images/rocket-mascot.jpg"
+        },
+        {
+          "id": 3,
+          "title": "The Mission",
+          "content": {
+            "english": "Finally, the day came! Luna put on her space suit and climbed into the rocket. 3, 2, 1... BLAST OFF!",
+            "arabic": "أخيراً، جاء اليوم! ارتدت لونا بدلة الفضاء وصعدت إلى الصاروخ. ثلاثة، اثنان، واحد... انطلاق!"
+          },
+          "image": "/images/planets.jpg"
+        }
+      ],
+      "subscription": "free"
+    },
+    {
+      "id": "story_002",
+      "title": "The Magical Numbers",
+      "category": "educational",
+      "difficulty": "beginner",
+      "description": "Discover the magic of numbers with Zara the mathematician!",
+      "image": "/images/math-games.jpg",
+      "estimatedTime": "6-10 minutes",
+      "ageRange": "6-9",
+      "languages": ["english", "arabic", "urdu"],
+      "xpReward": 50,
+      "moral": "Math is everywhere and can be fun and magical",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "The Discovery",
+          "content": {
+            "english": "Zara found a mysterious book in the library. When she opened it, numbers started dancing around her!",
+            "arabic": "وجدت زارا كتاباً غامضاً في المكتبة. عندما فتحته، بدأت الأرقام ترقص حولها!",
+            "urdu": "زارہ نے لائبریری میں ایک پراسرار کتاب پائی۔ جب اس نے اسے کھولا تو نمبرز اس کے ارد گرد رقص کرنے لگے!"
+          },
+          "image": "/images/math-games.jpg"
+        }
+      ],
+      "subscription": "standard"
+    },
+    {
+      "id": "story_003",
+      "title": "The Kind Robot Helper",
+      "category": "moral",
+      "difficulty": "intermediate",
+      "description": "Learn about kindness and helping others with Robo the friendly robot!",
+      "image": "/images/achievement-badge.jpg",
+      "estimatedTime": "8-12 minutes",
+      "ageRange": "7-11",
+      "languages": ["english", "arabic", "urdu"],
+      "xpReward": 60,
+      "moral": "Kindness and helping others makes the world a better place",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "Meeting Robo",
+          "content": {
+            "english": "In a futuristic city, there lived a kind robot named Robo who loved helping everyone he met.",
+            "arabic": "في مدينة مستقبلية، عاش روبوت طيب يدعى روبو كان يحب مساعدة كل من يقابله.",
+            "urdu": "ایک مستقبل کے شہر میں، روبو نام کا ایک مہربان روبوٹ رہتا تھا جو ہر ملنے والے کی مدد کرنا پسند کرتا تھا۔"
+          },
+          "image": "/images/progress-dashboard.jpg"
+        }
+      ],
+      "subscription": "premium"
+    }
+  ]
+}
